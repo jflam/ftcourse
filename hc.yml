@@ -18,7 +18,7 @@ datasets:
 dataset_prepared_path: last_run_prepared
 val_set_size: 0.1
 output_dir: ./qlora-alpaca-out
-hub_model_id: hamel/hc-mistral-alpaca
+hub_model_id: 
 
 adapter: qlora
 lora_model_dir:
@@ -41,8 +41,8 @@ lora_target_modules:
   - k_proj
   - o_proj
 
-wandb_project: hc-axolotl-mistral
-wandb_entity: hamelsmu
+wandb_project: ftcourse
+wandb_entity: jflam
 
 gradient_accumulation_steps: 4
 micro_batch_size: 16

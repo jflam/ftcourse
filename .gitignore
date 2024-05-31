@@ -1,2 +1,4 @@
 .ipynb_checkpoints/
 last_run_prepared/
+qlora-alpaca-out/
+wandb/
